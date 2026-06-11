@@ -1,0 +1,13 @@
+{
+  "name": "local-redis",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node src/index.js"
+  },
+  "dependencies": {
+    "ioredis": "^5.4.1",
+    "express": "^4.18.3"
+  }
+}
